@@ -6,8 +6,8 @@ test('test check create main class parent Character', () => {
     type: 'Bowman',
     health: 100,
     level: 1,
-    attack: null,
-    defence: null,
+    attack: undefined,
+    defence: undefined,
   });
 });
 

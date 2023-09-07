@@ -4,8 +4,8 @@ export default class Character {
     this.type = Character.checkType(type);
     this.health = health;
     this.level = level;
-    this.attack = null;
-    this.defence = null;
+    this.attack = undefined;
+    this.defence = undefined;
   }
 
   static checkName(name) {
